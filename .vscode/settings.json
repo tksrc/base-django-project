@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.pyc": {
+            "when": "$(basename).py"
+        },
+        "**/__pycache__": true,
+        "**/node_modules": true,
+        "**/_old": true,
+        "**/_old2": true,
+        "**/poetry.lock": true,
+        "**/bun.lockb": true,
+        "**/_pm": true
+    },
+    "explorerExclude.backup": {},
+    "cSpell.words": [
+        "flowbite",
+        "redoc",
+        "Redoc"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Django (Debug)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "autoReload": {
+                "enable": true
+            },
+            "django": true,
+            "justMyCode": true
+        }
+    ]
+}
